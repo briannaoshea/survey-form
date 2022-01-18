@@ -1,0 +1,78 @@
+body {
+    background-color: #2d3143;
+    color: #bdcadb;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 15px auto;
+}
+
+form {
+    padding-bottom: 5px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin: 0 auto;
+    border: none;
+    border-bottom: double #bdcadb;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+/*.inline is formatting for actual radio dots*/
+
+.inline {
+    width: unset;
+    margin: 0px 5px 0 0;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    width: unset;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+input, textarea, select {
+    width: 100%;
+    background-color: #1c1f2b;
+    border: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #bdcadb;
+    min-height: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.noborder {
+    border-bottom: none;
+}
+
+::placeholder {
+    color: #bdcadb;
+}
+
+input[type="submit"] {
+    margin: 20px auto;
+    display: block;
+    background-color: #1c1f2b;
+    color: #bdcadb; 
+    border-color: #bdcadb;;
+    width: 25%;
+    font-size: 16px;
+    height: 40px;
+    font-weight: bolder;
+}
+

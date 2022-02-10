@@ -1,1 +1,1 @@
-A survey form I created, to highlight my understanding of basic HTML and CSS.
+A survey form I created, to highlight my understanding of basic HTML and CSS, specifially how to create forms.
